@@ -1,0 +1,12 @@
+{
+  "agent_name": "mcp_server",
+  "agent_arn": "arn:aws:bedrock-agentcore:us-west-2:274044236335:runtime/mcp_server-S53epQCJ6q",
+  "agent_id": "mcp_server-S53epQCJ6q",
+  "user_pool_id": "us-west-2_pMVAlhZQI",
+  "client_id": "2s03poosimvus4fbujofcanjcr",
+  "client_secret": "oigqn37gua8di3o62jdh80t7s2jt0cmfr8l012psdcclp2ghfs2",
+  "region": "us-west-2",
+  "iam_role_name": "agentcore-runtime-mcp_server-role",
+  "ecr_repo_name": "bedrock-agentcore-mcp_server",
+  "deployed_at": "2026-03-15 16:25:55"
+}

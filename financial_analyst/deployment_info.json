@@ -1,0 +1,9 @@
+{
+  "agent_name": "financial_analyst",
+  "agent_arn": "arn:aws:bedrock-agentcore:us-west-2:274044236335:runtime/financial_analyst-bbE8QCC0tc",
+  "agent_id": "financial_analyst-bbE8QCC0tc",
+  "region": "us-west-2",
+  "iam_role_name": "agentcore-runtime-financial_analyst-role",
+  "ecr_repo_name": "bedrock-agentcore-financial_analyst",
+  "deployed_at": "2026-03-15 16:25:01"
+}

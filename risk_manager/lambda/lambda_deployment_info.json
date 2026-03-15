@@ -1,0 +1,6 @@
+{
+  "function_name": "lambda-agentcore-risk-manager",
+  "function_arn": "arn:aws:lambda:us-west-2:274044236335:function:lambda-agentcore-risk-manager",
+  "region": "us-west-2",
+  "deployed_at": "2026-03-15 16:27:10"
+}

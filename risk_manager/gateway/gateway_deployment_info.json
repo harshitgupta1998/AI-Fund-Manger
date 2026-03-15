@@ -1,0 +1,12 @@
+{
+  "lambda_arn": "arn:aws:lambda:us-west-2:274044236335:function:lambda-agentcore-risk-manager",
+  "gateway_id": "gateway-risk-manager-mizssxz4fm",
+  "gateway_url": "https://gateway-risk-manager-mizssxz4fm.gateway.bedrock-agentcore.us-west-2.amazonaws.com/mcp",
+  "target_id": "CX5B1DJXGW",
+  "user_pool_id": "us-west-2_WInfZQRue",
+  "client_id": "3hl0vleokd2dmv551upr1qb1f9",
+  "client_secret": "c51et4sfs9ldj051of0nlfemgnst68v96gk7hp54fsr6099gm6j",
+  "region": "us-west-2",
+  "iam_role_name": "gateway-risk-manager-role",
+  "deployed_at": "2026-03-15 16:27:41"
+}

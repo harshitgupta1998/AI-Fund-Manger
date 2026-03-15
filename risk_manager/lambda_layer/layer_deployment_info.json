@@ -1,0 +1,11 @@
+{
+  "layer_name": "layer-yfinance",
+  "layer_arn": "arn:aws:lambda:us-west-2:274044236335:layer:layer-yfinance",
+  "layer_version_arn": "arn:aws:lambda:us-west-2:274044236335:layer:layer-yfinance:13",
+  "version": 13,
+  "s3_bucket": "layer-yfinance-274044236335",
+  "s3_key": "layer-yfinance.zip",
+  "region": "us-west-2",
+  "runtime": "python3.12",
+  "deployed_at": "2026-03-15 16:26:59"
+}

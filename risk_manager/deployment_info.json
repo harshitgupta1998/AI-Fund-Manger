@@ -1,0 +1,9 @@
+{
+  "agent_name": "risk_manager",
+  "agent_arn": "arn:aws:bedrock-agentcore:us-west-2:274044236335:runtime/risk_manager-S3O3Jl2Du0",
+  "agent_id": "risk_manager-S3O3Jl2Du0",
+  "region": "us-west-2",
+  "iam_role_name": "agentcore-runtime-risk_manager-role",
+  "ecr_repo_name": "bedrock-agentcore-risk_manager",
+  "deployed_at": "2026-03-15 16:28:28"
+}

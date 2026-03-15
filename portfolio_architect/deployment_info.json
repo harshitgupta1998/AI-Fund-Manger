@@ -1,0 +1,9 @@
+{
+  "agent_name": "portfolio_architect",
+  "agent_arn": "arn:aws:bedrock-agentcore:us-west-2:274044236335:runtime/portfolio_architect-zYt2945kHn",
+  "agent_id": "portfolio_architect-zYt2945kHn",
+  "region": "us-west-2",
+  "iam_role_name": "agentcore-runtime-portfolio_architect-role",
+  "ecr_repo_name": "bedrock-agentcore-portfolio_architect",
+  "deployed_at": "2026-03-15 16:26:34"
+}

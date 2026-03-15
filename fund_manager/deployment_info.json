@@ -1,0 +1,14 @@
+{
+  "agent_name": "fund_manager",
+  "agent_arn": "arn:aws:bedrock-agentcore:us-west-2:274044236335:runtime/fund_manager-AFrxz874g6",
+  "agent_id": "fund_manager-AFrxz874g6",
+  "region": "us-west-2",
+  "iam_role_name": "agentcore-runtime-fund_manager-role",
+  "ecr_repo_name": "bedrock-agentcore-fund_manager",
+  "dependent_agents": {
+    "financial_analyst": "arn:aws:bedrock-agentcore:us-west-2:274044236335:runtime/financial_analyst-bbE8QCC0tc",
+    "portfolio_architect": "arn:aws:bedrock-agentcore:us-west-2:274044236335:runtime/portfolio_architect-zYt2945kHn",
+    "risk_manager": "arn:aws:bedrock-agentcore:us-west-2:274044236335:runtime/risk_manager-S3O3Jl2Du0"
+  },
+  "deployed_at": "2026-03-15 16:29:06"
+}
