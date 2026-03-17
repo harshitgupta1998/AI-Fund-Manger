@@ -585,9 +585,6 @@ def load_current_session_summary():
 
 # UI configuration by menu
 if menu == "New Fund Management":
-    with st.expander("Fund Manager Architecture", expanded=True):
-        st.image(os.path.join(STATIC_PATH, "fund_manager.png"))
-
 
     st.markdown("**Investor Information Input**")
 

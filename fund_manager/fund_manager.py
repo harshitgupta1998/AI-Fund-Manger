@@ -81,6 +81,15 @@ class AgentClient:
         max_retries = 3
         retry_delay = 2
         
+        # Ensure data is a proper dict/object, not a JSON string.
+        # Results from upstream agents may arrive as JSON strings;
+        # parse them so downstream agents receive a valid JSON object.
+        if isinstance(data, str):
+            try:
+                data = json.loads(data)
+            except (json.JSONDecodeError, TypeError):
+                pass  # keep as-is if it's not valid JSON
+        
         for attempt in range(max_retries):
             try:
                 response = self.client.invoke_agent_runtime(

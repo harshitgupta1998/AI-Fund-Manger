@@ -146,6 +146,12 @@ When responding, you must adhere to the following:
     
     async def analyze_risk_async(self, portfolio_data):
         try:
+            # Ensure we have a proper object, not a double-encoded JSON string
+            if isinstance(portfolio_data, str):
+                try:
+                    portfolio_data = json.loads(portfolio_data)
+                except (json.JSONDecodeError, TypeError):
+                    pass
             portfolio_str = json.dumps(portfolio_data, ensure_ascii=False)
             
             with self.mcp_client:

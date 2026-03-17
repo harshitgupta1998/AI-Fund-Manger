@@ -124,6 +124,12 @@ Important Notes:
 - Investment weights must be expressed as integers and total 100%."""
 
     async def design_portfolio_async(self, financial_analysis):
+        # Ensure we have a proper object, not a double-encoded JSON string
+        if isinstance(financial_analysis, str):
+            try:
+                financial_analysis = json.loads(financial_analysis)
+            except (json.JSONDecodeError, TypeError):
+                pass
         analysis_str = json.dumps(financial_analysis, ensure_ascii=False)
         
         with self.mcp_client:
